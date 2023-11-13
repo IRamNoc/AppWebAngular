@@ -1,0 +1,22 @@
+<table>
+    
+    <thead>
+        <tr>
+            <th>Nom</th>
+            <th>Date</th>
+            <th>Lieu</th>
+            <th>Début</th>
+            <th>Fin</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let e of events.listeEvenements | events:'dansante'; let i=index">
+            <td>{{ i }}</td>
+            <td>{{ e.nom | uppercase }}</td>
+            <td>{{ e.date }}</td>
+            <td>{{ e.lieu }}</td>
+            <td>{{ e.horaires.debut }}</td>
+            <td>{{ e.horaires.fin }}</td>
+        </tr>
+    </tbody>
+</table>

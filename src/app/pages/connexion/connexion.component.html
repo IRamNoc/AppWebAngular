@@ -1,0 +1,9 @@
+<h2>Connexion</h2>
+<form (submit)="auth.authentification()">
+  <label>ID</label>
+  <input name="id" [(ngModel)]="auth.authID.id" required>
+  <label>Mot de passe</label>
+  <input name="password" [(ngModel)]="auth.authID.mdp" required>
+  <button type="submit">Se connecter</button>
+</form>
+  

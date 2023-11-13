@@ -1,0 +1,11 @@
+[
+  {"nom":"Soiree Halloween",
+   "date":"17/04/2468", 
+   "lieu":"VB", 
+   "horaires":"{debut:'18h', fin:'23h'}}"},
+
+  {"nom":"Soiree Noel", 
+  "date":"24/12/2074", 
+  "lieu":"École", 
+  "horaires":"{debut:'19h30', fin:'23h'}}"}
+]

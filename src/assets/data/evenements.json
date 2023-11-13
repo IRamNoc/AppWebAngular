@@ -1,0 +1,51 @@
+[
+  {"nom":"Soiree Halloween",
+   "date":"17/04/2468", 
+   "lieu":"VB", 
+   "horaires":"{debut:'18h', fin:'23h'}}"},
+
+  {"nom":"Soiree Noel", 
+  "date":"24/12/2074", 
+  "lieu":"École", 
+  "horaires":"{debut:'19h30', fin:'23h'}}"},
+
+  {"nom":"Soiree Dansante",
+   "date":"11/11/2077", 
+   "lieu":"VB", 
+   "horaires":"{debut:'18h', fin:'23h'}}"},
+
+  {"nom":"Soiree Chantante", 
+  "date":"2/1/2163", 
+  "lieu":"École", 
+  "horaires":"{debut:'19h30', fin:'23h'}}"},
+
+  {"nom":"Soiree Mystere",
+   "date":"4/1/2000", 
+   "lieu":"À la maison", 
+   "horaires":"{debut:'18h', fin:'23h'}}"},
+
+  {"nom":"Soiree Surprise", 
+  "date":"15/1/2143", 
+  "lieu":"Salle des fêtes", 
+  "horaires":"{debut:'19h30', fin:'23h'}}"},
+
+  {"nom":"Soiree 1", 
+  "date":"1/2/2003", 
+  "lieu":"Salle des fêtes", 
+  "horaires":"{debut:'19h30', fin:'23h'}}"},
+
+  {"nom":"Soiree 2", 
+  "date":"17/10/2173", 
+  "lieu":"Salle des fêtes", 
+  "horaires":"{debut:'19h30', fin:'23h'}}"},
+
+  {"nom":"Soiree 3", 
+  "date":"10/10/2333", 
+  "lieu":"Salle des fêtes", 
+  "horaires":"{debut:'19h30', fin:'23h'}}"},
+
+  {"nom":"Soiree 4", 
+  "date":"19/4/2132", 
+  "lieu":"Salle des fêtes", 
+  "horaires":"{debut:'19h30', fin:'23h'}}"}
+]

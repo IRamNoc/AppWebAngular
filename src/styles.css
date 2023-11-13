@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;700&display=swap');
+
+/* Style général pour la page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Couleur de fond pour la page */
+  }
+  
+  /* Style pour la balise main */
+  main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff; /* Couleur de fond pour la section principale */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre légère */
+  }
+  
+  /* Style pour l'en-tête (header) */
+  header {
+    background-color: #333; /* Couleur de fond pour l'en-tête */
+    color: #fff; /* Couleur du texte pour l'en-tête */
+    padding: 15px;
+    border-radius: 5px 5px 0 0; /* Coins arrondis en haut */
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  h2 {
+    margin-top: 5px;
+    margin-bottom: 0;
+  }
+  
+  /* Style pour la section */
+  section {
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 0 0 5px 5px; /* Coins arrondis en bas */
+  }
+  
+  /* Style pour le pied de page (footer) */
+  app-footer {
+    margin-top: 20px;
+    text-align: center;
+    color: #777;
+  }
+  

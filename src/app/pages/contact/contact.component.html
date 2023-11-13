@@ -1,0 +1,26 @@
+<section>
+    <h1>Besoin d'aide ? Pas assez de redbull ?</h1>
+    <h1>Contactez moi</h1>
+    <form (submit)="coucouToi()">
+        <label>Nom</label>
+        <input type="text" name="nom" [(ngModel)]="contact.nom" (input)="coucouToi()" #cltNom="ngModel" required minlength="8">
+        <span *ngIf="cltNom.value.length < 8">Le champ doit avoir au moins 8 caractères</span>
+        <label>Prénom</label>
+        <input name="prenom" [(ngModel)]="contact.prenom">
+        <label>Email</label>
+        <input name="email" [(ngModel)]="contact.email">
+        <label>Statut</label>
+        <input name="statut" [(ngModel)]="contact.statut">
+        <label>Tél</label>
+        <input name="tel" [(ngModel)]="contact.tel">
+        <label>Pays</label>
+        <input name="pays" [(ngModel)]="contact.adresse.pays">
+        <label>Ville</label>
+        <input name="ville" [(ngModel)]="contact.adresse.ville">
+        <label>Code Postal</label>
+        <input name="codePostal" [(ngModel)]="contact.adresse.codePostal">
+        <label>Rue</label>
+        <input name="rue" [(ngModel)]="contact.adresse.rue">
+        <button type="submit">Envoyer</button>
+    </form>
+</section>
